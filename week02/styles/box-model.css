@@ -1,10 +1,10 @@
 .callout {
-  max-width: 400px;
-  margin: 10px;
-  border: 2px solid black;
-  padding: 10px;
-  background-color: gray;
-  color: whitesmoke;
+    max-width: 400px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: gray;
+    color: whitesmoke;
 }
 
 .callout img {
