@@ -52,7 +52,8 @@ main img {
 p {
     padding: 0;
 }
-footer{
+
+footer {
     margin-top: 15px;
     border-top: 2px solid blue;
     text-align: center;
