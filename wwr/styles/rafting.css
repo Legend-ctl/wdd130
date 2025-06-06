@@ -18,7 +18,7 @@ header{
 }
 header nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
    
 }
 header nav a {
@@ -124,7 +124,6 @@ footer .socialmedia {
     gap: 1rem;
 }
 
-footer .socialmedia img {
+footer .socialmedia a img {
     width: 30px;
-    height: auto;
 }
