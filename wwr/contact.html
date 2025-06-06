@@ -6,12 +6,6 @@
     <title>Contact Us | White Water Rafting</title>
     <meta name="description" content="Contact White Water Rafting for inquiries, reservations, or suggestions. We're happy to help!">
     <meta name="author" content="John Moses">
-
-   <!-- Google fonts Open Sans and Montserrat -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-
     <!-- Css link  -->
      <link rel="stylesheet" href="styles/contact.css">
 
@@ -52,32 +46,33 @@
             </figure>
         </section>
 
-          <section class="contact-form">
-            <h3>Send Us a Message</h3>
-            <form>
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" required>
+          
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form>
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required />
 
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-                <label>Purpose of Message</label>
-                <div class="radio-group">
-                    <label><input type="radio" name="purpose" value="reservation" required> Reservation</label>
-                    <label><input type="radio" name="purpose" value="question"> Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Suggestion</label>
-                </div>
+        <label for="purpose">Purpose:</label>
+        <select id="purpose" name="purpose">
+          <option value="question">General Question</option>
+          <option value="booking">Booking Inquiry</option>
+          <option value="feedback">Feedback</option>
+        </select>
 
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" required></textarea>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5"></textarea>
 
-                <div class="checkbox-group">
-                    <label><input type="checkbox" name="subscribe"> Subscribe to our monthly newsletter</label>
-                </div>
+        <label>
+          <input type="checkbox" name="newsletter" /> Subscribe to our newsletter
+        </label>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
     </main>
     <footer>
         <p>© 2025 🌲 White Water Rafting 🌲 John Moses Godwin</p>
