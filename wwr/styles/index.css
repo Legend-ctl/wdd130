@@ -6,11 +6,16 @@
     --heading-font: 'Open Sans', sans-serif;
     --body-font: 'Montserrat', sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     background-color: var(--primary-color);
     width: 100%;
     color: var(--accent2-color);
-    margin: 1rem auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 120px 1fr 2fr;
     align-items: center;
