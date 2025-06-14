@@ -124,7 +124,7 @@ button {
   cursor: pointer;
   border-radius: 5px;
 }
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,10 +132,12 @@ footer{
     color: white;
     padding: 1rem;
 }
-footer .socialmedia{
+
+footer .socialmedia {
     display: flex;
     gap: 1rem;
 }
-footer .socialmedia img{
-   width: 30px;
+
+footer .socialmedia a img {
+    width: 30px;
 }
