@@ -15,6 +15,7 @@ body{
     font-family: var(--body-font);
     color: var(--accent1-color);
     font-weight: 400;
+    background-color: var(--primary-color);
 }
 header, main, footer{
     max-width: 100vw;
@@ -73,12 +74,18 @@ aside img{
     padding: 20px;
 }
 h2{
+    color: var(--accent2-color);
     text-align: center;
 }
 footer{
     background-color: var(--accent2-color);
     padding: 10px;
-    position: relative;
 }
-
+footer nav{
+    margin-left: 1200px;
+    margin-top: -55px;
+}
+header{
+    background-color: var(--accent2-color);
+}
 
