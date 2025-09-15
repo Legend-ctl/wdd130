@@ -58,3 +58,17 @@ h1{
     background-color: var(--accent2-color);
     color: var(--primary-color);
 }
+aside{
+    margin-left: 80px;
+    position: absolute;
+    bottom: -70px;
+    width: 90%;
+    padding: 8px;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+}
+aside img{
+    float: right;
+    margin: 10px;
+    padding: 20px;
+}
