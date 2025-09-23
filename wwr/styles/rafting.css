@@ -112,8 +112,8 @@ footer{
     padding: 40px;
 }
 .socialmedia{
+    text-decoration: none;
     display: flex;
-    list-style: none;
     justify-content: flex-end;
     margin-top: -40px;
 }
