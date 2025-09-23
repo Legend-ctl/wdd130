@@ -112,7 +112,6 @@ footer{
     padding: 40px;
 }
 .socialmedia{
-    text-decoration: none;
     display: flex;
     list-style: none;
     justify-content: flex-end;
@@ -120,4 +119,7 @@ footer{
 }
 footer img{
     width: 30px;
+}
+.socialmedia a{
+    text-decoration: none;
 }
