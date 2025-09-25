@@ -85,7 +85,7 @@ article{
 .image{
     float: right;
     width: 10%;
-    padding: 5px;
+    padding: 4px;
 }
 .first{
     background-color: var(--secondary-color);
