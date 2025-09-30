@@ -71,9 +71,6 @@ main{
     font-size: larger;
     padding: 10px;
 }
-iframe{
-    border: 0;
-}
 .map{
     grid-column: 2 / 5;
     max-width: 100vw;
